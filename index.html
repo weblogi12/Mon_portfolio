@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en-fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Portfolio_Debret</title>
+</head>
+<body>
+    <!-- bare de navigation -->
+    <header class="navigation">
+        <div class="logo">DEBRET<span>-DOUNTSOP</span></div>
+        <div class="lien-navigation">
+            <a href="#accueil">Accueil</a>
+            <a href="#apropos">À propos</a>
+            <a href="#projets">Projets</a>
+            <a href="#competences">Compétences</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+    <!-- section accueil -->
+   <section id="accueil" class="section-accueil">
+    <div class="contenus1-accueil">
+        <div class="contenus-accueil">
+            <h1>Je suis <span>DEBRET</span>, Développeur en devenir passionné par le web et le design !</h1>
+            <p>Fort d’un parcours riche en enseignement informatique et en électronique, j’ai décidé de me consacrer pleinement à ma passion : le développement web. Mon expérience m’a apporté une rigueur technique et un sens pédagogique qui me permettent aujourd’hui d’aborder ce domaine avec une approche unique.
+
+Je mets désormais ces atouts au service de vos projets, en alliant la méthode de l’enseignement à la précision de l’électrotechnique. Que vous soyez une entreprise, une association ou un particulier, je m’engage à créer des solutions web sur mesure, portées par l’enthousiasme du débutant et la maturité du technicien expérimenté.</p>
+            <a href="#projets" class="btn">Voir mes projets</a>
+        </div>
+        <div class="accueil-img">
+            <img src="images/code-programme.avif" alt="Illustration du développeur">
+        </div>
+    </div>
+</section>
+    <!--section apropos-->
+   <section id="apropos" class="section-apropos">
+    <div class="conteneur-apropos">
+        <div class="tete-apropos">
+            <h2>À propos</h2>
+        </div>
+        <div class="contenus-apropos">
+            <div class="text-apropos">
+                <p>Je m'appelle <strong>DEBRET DOUNTSOP</strong>, passionné par la création de sites web modernes et interactifs.</p>
+                <p>Je suis actuellement étudiant(e) en <span>développement web</span>, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+                <a href="cv.html" class="download-cv">Télécharger mon CV</a>
+            </div>
+            <div class="apropos-img">
+                <img src="images/profil.jpeg" alt="Photo de DEBRET">
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- section Projets -->
+    <section id="projets" class="section-projets">
+        <h2 class="titre-projet">Mes Projets</h2>
+        <div class="qualiter-projets"> 
+            <button class="filter-btn active" data-filter="tous">Tous les projets</button>
+            <button class="filter-btn" data-filter="collaboration">Collaboration</button>
+            <button class="filter-btn" data-filter="personnel">Personnel</button>
+        </div>
+        
+        <div class="grid-projet">
+            <!-- Projet 1 -->
+           <div class="carte-projet" data-category="personnel">
+    <div class="image-projet">
+        <img src="images/IMAGE 1.webp" alt="Mini-Jeu 1">
+        <div class="titre-image">Mini-Jeu 1</div>
+    </div>
+    <div class="info-projet">
+        <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+        <div class="tags">
+            <span class="tag">#html</span>
+            <span class="tag">#css</span>
+            <span class="tag">#js</span>
+        </div>
+        <a href="project1.html" class="view-btn" onclick="return false;">Voir</a>
+    </div>
+</div>
+            
+            <!-- Projet 2 -->
+            <div class="carte-projet" data-category="personnel">
+    <div class="image-projet">
+        <img src="images/calculatrice.png" alt="calculatrice">
+        <div class="titre-image">calculatrice simple</div>
+    </div>
+    <div class="info-projet">
+        <p>Une calculatrice interactive en JavaScript exploitant les événements du DOM pour effectuer des opérations simples.</p>
+        <div class="tags">
+            <span class="tag">#html</span>
+            <span class="tag">#css</span>
+            <span class="tag">#js</span>
+        </div>
+        <a href="project1.html" class="view-btn" onclick="return false;">Voir</a>
+    </div>
+</div>
+            
+            <!-- Projet 3 -->
+               <div class="carte-projet" data-category="collaboration">
+    <div class="image-projet">
+        <img src="images/qiz1.jpg" alt="qiz1">
+        <div class="titre-image">QUIZ</div>
+    </div>
+    <div class="info-projet">
+        <p>Un quiz interactif avec système de score et feedback.</p>
+        <div class="tags">
+            <span class="tag">#html</span>
+            <span class="tag">#css</span>
+            <span class="tag">#js</span>
+        </div>
+        <a href="project1.html" class="view-btn" onclick="return false;" >Voir</a>
+    </div>
+</div>
+            <!-- Projet 4 -->
+                   <div class="carte-projet" data-category="collaboration">
+    <div class="image-projet">
+        <img src="images/mediatheque.jpg" alt="qiz1">
+        <div class="titre-image">E-commerce</div>
+    </div>
+    <div class="info-projet">
+        <p>Découvrez notre boutique en ligne, un espace simple et sécurisé pour vos achats quotidiens. Produits variés, prix transparents et livraison rapide pour une expérience d’achat agréable.</p>
+        <div class="tags">
+            <span class="tag">#html</span>
+            <span class="tag">#css</span>
+            <span class="tag">#js</span>
+            <span class="tag">#wordpress</span>
+        </div>
+        <a href="https://asso-ekoumi.org/" class="view-btn" >Voir</a>
+    </div>
+</div>
+            
+            <!-- Projet 5 -->
+             <div class="carte-projet" data-category="personnel">
+    <div class="image-projet">
+        <img src="images/a_propos_debret.png" alt="qiz1">
+        <div class="titre-image">Portfolio</div>
+    </div>
+    <div class="info-projet">
+        <p>Portfolio responsive avec animations et navigation fluide.</p>
+        <div class="tags">
+            <span class="tag">#html</span>
+            <span class="tag">#css</span>
+            <span class="tag">#js</span>
+        </div>
+        <a href="https://logiboss12.github.io/Mon_portfolio/" class="view-btn" >Voir</a>
+    </div>
+</div>
+           
+            <!-- Projet 6 -->
+              <div class="carte-projet" data-category="collaboration">
+    <div class="image-projet">
+        <img src="images/echodebangui.webp" alt="qiz1">
+        <div class="titre-image">site vitrine</div>
+    </div>
+    <div class="info-projet">
+        <p>J'ai déjà eu l'occasion de travailler sur des projets concrets, tels que le site gouvernemental de Bangui en centrafrique <strong>echo de bangui</strong></p >
+        <div class="tags">
+            <span class="tag">#html</span>
+            <span class="tag">#css</span>
+            <span class="tag">#js</span>
+            <span class="tag">#wordpress</span>
+        </div>
+        <a href="https://echodebangui.com" class="view-btn">Voir</a>
+    </div>
+</div>
+</div>
+</section>         
+            
+           
+    <!-- section competences -->
+    <section class="section-competences" id="competences">
+        <div class="entete-competences">
+            <h2 class="titre-comp">MES COMPÉTENCES</h2>
+            <p class="sous-titre">Des compétences à votre service</p>
+            <div class="soulignage"></div>
+        </div>
+
+        <div class="contenus-competence">
+            <!-- Colonne gauche : Domaines de compétences -->
+            <div class="colone-compt colone-gauche">
+                <h3>Domaines de compétences</h3>
+                <ul class="list-compt">
+                    <li>
+                        <span class="icon">✓</span>
+                        <strong>GESTION DE PROJETS WEB</strong>
+                        <br><small>Site vitrine, corporate, événementiel, e-commerce, intranet, application mobile.</small>
+                    </li>
+                    <li>
+                        <span class="icon">✓</span>
+                        <strong>CONCEPTION GRAPHIQUE & WEBDESIGN</strong>
+                        <br><small>Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</small>
+                    </li>
+                    <li>
+                        <span class="icon">✓</span>
+                        <strong>APPLICATIONS SPÉCIFIQUES ET INTERFACE D'ADMINISTRATION</strong>
+                        <br><small>- MYSQL - AJAX /  SQL REACT (Next.js)</small>
+                    </li>
+                    <li>
+                        <span class="icon">✓</span>
+                        <strong>MISE EN PLACE / MODIFICATION / GESTION DE CMS</strong>
+                        <br><small>Wordpress, Moodelle</small>
+                    </li>
+                    <li>
+                        <span class="icon">✓</span>
+                        <strong>INTÉGRATION (X)HTML / CSS</strong>
+                        <br><small>Codage à la main respectueux des standards du Web</small>
+                    </li>
+                    <li>
+                        <span class="icon">✓</span>
+                        <strong>DYNAMISE DES PAGES PAR JAVASCRIPT / AJAX</strong>
+                        <br><small>jQuery,JAVASCRIPT,REACT </small>
+                    </li>
+                    <li>
+                        <span class="icon">✓</span>
+                        <strong>VALIDATION W3C, WAI & RÉFÉRENCEMENT NATUREL SEO</strong>
+                        <br><small>Accessibilité & ergonomie des pages web</small>
+                    </li>
+                    <li>
+                        <span class="icon">✓</span>
+                        <strong>CONCEPTION MULTI-PLATEFORMES</strong>
+                        <br><small>Compatible tous supports, tablette & application mobile</small>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Colonne droite : Barres de progression -->
+            <div class="colone-compt colone-droit">
+                <!-- Compétences en développement -->
+                <h3>Compétences en développement</h3>
+                <div class="contenus-bar-progr">
+                    <div class="element-prog">
+                        <span class="label-comp">(X)HTML - CSS</span>
+                        <div class="progression">
+                            <div class="progress-fill" data-percent="60"></div>
+                        </div>
+                    </div>
+                    <div class="element-prog">
+                        <span class="label-comp">PHP</span>
+                        <div class="progression">
+                            <div class="progress-fill" data-percent="50"></div>
+                        </div>
+                    </div>
+                    <div class="element-prog">
+                        <span class="label-comp">MYSQL - SQL</span>
+                        <div class="progression">
+                            <div class="progress-fill" data-percent="40"></div>
+                        </div>
+                    </div>
+                    <div class="element-prog">
+                        <span class="label-comp">JAVASCRIPT - AJAX - REACT</span>
+                        <div class="progression">
+                            <div class="progress-fill" data-percent="75"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Autres competence en informatique -->
+                <h3>Autres competences en informatique</h3>
+                <div class="contenus-bar-progr">
+                    <div class="element-prog">
+                        <span class="label-comp">INSTALLATION DES SYSTEMES INFORMATIQUE</span>
+                        <div class="progression">
+                            <div class="progress-fill" data-percent="90"></div>
+                        </div>
+                    </div>
+                    <div class="element-prog">
+                        <span class="label-comp">INSTALLATION DES SYSTEMES DE VIDEO SURVEILLANCE</span>
+                        <div class="progression">
+                            <div class="progress-fill" data-percent="80"></div>
+                        </div>
+                    </div>
+                    <div class="element-prog">
+                        <span class="label-comp">MAINTENANCE INFORMATIQUE</span>
+                        <div class="progression">
+                            <div class="progress-fill" data-percent="70"></div>
+                        </div>
+                    </div>
+                    <div class="element-prog">
+                        <span class="label-comp">RESEAUX INFORMATIQUE</span>
+                        <div class="progression">
+                            <div class="progress-fill" data-percent="60"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- pieds competences -->
+        <div class="pieds">
+            <p>UNE IDÉE ? UN PROJET ? N'HÉSITEZ PAS À <a href="#contact" class="contact-link">DEMANDER UN DEVIS ! [GRATUIT]</a></p>
+        </div>
+    </section>
+    <!--section contact-->
+      <section id="contact" class="section-contact">
+    <h2 class="titre-contact1">CONTACTEZ-MOI</h2>
+    
+    <div class="pieds2">
+       <h3 class="titre-contact">Vous avez un <span>projet en tête</span> ? N'hésitez pas à me <span>contacter</span></h3>
+    </div>
+    
+    <div class="contenus-contact">
+        <!-- Informations de contact -->
+        <div class="colone-contact colone-gauche">
+            <div class="element-contact">
+                <div class="icon">📍</div>
+                <div>
+                    <div class="label-contact">Adresse</div>
+                    <div class="description-contact">Bertoua, Cameroun Rue Enia</div>
+                </div>
+            </div>
+            
+            <div class="element-contact">
+                <div class="icon">📞</div>
+                <div>
+                    <div class="label-contact">Téléphone</div>
+                    <div class="description-contact">(+237) 6.95.15.69.40</div>
+                </div>
+            </div>
+            
+            <div class="element-contact">
+                <div class="icon">✉️</div>
+                <div>
+                    <div class="label-contact">E-mail</div>
+                    <div class="description-contact">debretdountsopo@gmail.com</div>
+                </div>
+            </div>
+            
+            <div class="element-contact">
+                <div class="icon">🕒</div>
+                <div>
+                    <div class="label-contact">Horaires</div>
+                    <div class="description-contact">Lundi - Vendredi<br>09H00 - 18H00</div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Carte -->
+        <div class="colone-contact colone-centrale">
+            <div class="img-contact">
+                <img src="images/map.jpeg" alt="Carte indicative" class="map-image">
+            </div>
+        </div>
+        
+        <!-- Formulaire -->
+        <div class="colone-contact">
+            <form class="formulaire" id="formulaire">
+                <div class="identifiant">
+                    <div class="prenom-contact">
+                        <label for="name" class="form-label">Nom / Prénom</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+                </div>
+                
+                <div class="identifiant">
+                    <div class="prenom-contact">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    <div class="nom-contact">
+                        <label for="phone" class="form-label">Téléphone</label>
+                        <input type="tel" id="phone" name="phone" class="form-input">
+                    </div>
+                </div>
+                
+                <div class="description-contact">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" class="form-textarea" placeholder="Merci de détailler le plus possible votre besoin afin de faciliter nos futurs échanges." required></textarea>
+                </div>
+                
+                <div class="confidentialiter">
+                    <input type="checkbox" id="consent" name="consent" class="checkbox-input" required>
+                    <label for="consent" class="label-comp">En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre de la demande de contact et de la relation commerciale qui peut en découler.</label>
+                </div>
+                
+                <div class="controle-contact">
+                    <div class="icon">🔒</div>
+                    <div style="flex: 1; display: flex; align-items: center; gap: 10px;">
+                        <span class="label-contact">5 + 4 = ?</span>
+                        <input type="number" id="captcha" name="captcha" class="form-input" style="width: 80px;" required>
+                    </div>
+                </div>
+                
+                <button type="submit" class="submit-btn">ENVOYER</button>
+            </form>
+        </div>
+    </div>
+    </section>
+    
+
+<!-- Footer -->
+<footer class="section-footer">
+    <div class="conteneur-footer">
+        <!-- Colonne 1: Logo et description -->
+        <div class="colone-footer">
+            <div class="logo-footer">DEBRET<span>-DOUNTSOP</span></div>
+            <p class="description-footer">
+               Je suis développeur web freelance et j'aime ça !
+            </p>
+            <div class="reseau-sociaux">
+                <a href="https://api.whatsapp.com/send?phone=237695156940" class="lien-reseau" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="#" class="lien-reseau" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="lien-reseau" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Colonne 2: Liens rapides -->
+        <div class="colone-footer">
+            <h3 class="titre-footer">Liens Rapides</h3>
+            <ul class="liste-liens">
+                <li><a href="#accueil" class="lien-footer"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="#apropos" class="lien-footer"><i class="fas fa-user"></i> À propos</a></li>
+                <li><a href="#projets" class="lien-footer"><i class="fas fa-briefcase"></i> Projets</a></li>
+                <li><a href="#competences" class="lien-footer"><i class="fas fa-code"></i> Compétences</a></li>
+                <li><a href="#contact" class="lien-footer"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Colonne 3: Services -->
+        <div class="colone-footer">
+            <h3 class="titre-footer">Services</h3>
+            <ul class="liste-liens">
+                <li><a href="#" class="lien-footer"><i class="fas fa-laptop-code"></i> Développement Web</a></li>
+                <li><a href="#" class="lien-footer"><i class="fa-solid fa-network-wired"></i> Reseaux informatique</a></li>
+                <li><a href="#" class="lien-footer"><i class="fas fa-mobile-alt"></i> Applications Mobile</a></li>
+                <li><a href="#" class="lien-footer"><i class="fas fa-tools"></i> Maintenance</a></li>
+                <li><a href="#" class="lien-footer"><i class="fas fa-comments"></i> Consultation</a></li>
+            </ul>
+        </div>
+
+        <!-- Colonne 4: Contact -->
+        <div class="colone-footer">
+            <h3 class="titre-footer">Contact</h3>
+            <div class="info-contact">
+                <div class="element-contact-footer">
+                    <i class="fas fa-envelope icon-contact"></i>
+                    <span>debretdountsopo@gmail.com</span>
+                </div>
+                <div class="element-contact-footer">
+                    <i class="fas fa-phone icon-contact"></i>
+                    <span>(+237) 6.95.15.69.40</span>
+                </div>
+                <div class="element-contact-footer">
+                    <i class="fas fa-map-marker-alt icon-contact"></i>
+                    <span>Betoua,cameroun<br>rue Enia</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Barre de copyright -->
+    <div class="barre-copyright">
+        <div class="conteneur-copyright">
+            <p>&copy; 2024 DEBRET DOUNTSOP. Tous droits réservés.</p>
+            <div class="liens-legaux">
+                <a href="#" class="lien-legal"><i class="fas fa-shield-alt"></i> Politique de confidentialité</a>
+                <a href="#" class="lien-legal"><i class="fas fa-gavel"></i> Mentions légales</a>
+                <a href="#" class="lien-legal"><i class="fas fa-cookie-bite"></i> Cookies</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script src="javascript/script.js"></script>
+</body>
+</html>
